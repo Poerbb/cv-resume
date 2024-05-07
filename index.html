@@ -5,64 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <style>
-      body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
 }
 
+/* Headings */
 h1, h2, h3 {
-    margin-bottom: 10px;
+    color: #007bff;
 }
 
-ul {
-    margin-top: 0;
+/* Section Dividers */
+h1:not(:first-child),
+h2:not(:first-child),
+h3:not(:first-child) {
+    border-top: 2px solid #007bff;
+    padding-top: 20px;
+    margin-top: 40px;
 }
 
-/* Style for Education section */
+/* Education Section */
 #degree {
     font-size: 24px;
     font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
 }
 
 #year, #university {
     font-style: italic;
+    color: #555;
 }
 
-/* Style for Skills section */
-#skills {
-    list-style-type: none;
-}
-
-#skills li {
+/* Skills, Experience, and Awards */
+#skills li, #experience li, #awards li {
     margin-bottom: 5px;
+    color: #333;
 }
 
-/* Style for Experience section */
-#experience {
-    list-style-type: none;
-}
-
-#experience li {
-    margin-bottom: 5px;
-}
-
-/* Style for Awards section */
-#awards {
-    list-style-type: none;
-}
-
-#awards li {
-    margin-bottom: 5px;
-}
-
-/* Style for Contact Information section */
+/* Contact Information Section */
 #name {
     font-weight: bold;
-}
-
-#address, #phoneNumber, #email, #birthdate, #sex {
+    font-size: 20px;
+    color: #333;
     margin-bottom: 5px;
 }
+
+/* Personal Information Section */
+#address, #phoneNumber, #email, #birthdate, #sex {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
     </style>
 </head>
